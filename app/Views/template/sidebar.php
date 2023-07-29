@@ -14,9 +14,7 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
           with font-awesome or any other icon font library -->
-          <?php 
-          foreach($menu as $k => $v) { 
-            ?>
+          <?php foreach($menu as $k => $v) {?>
             <li class="nav-item">
               <a href="<?= $v['link']; ?>" class="nav-link <?= $v['aktif']; ?> ">
               <i class="<?= $v['icon']; ?>"></i>
